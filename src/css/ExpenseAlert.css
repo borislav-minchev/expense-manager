@@ -1,0 +1,18 @@
+.alert-container:hover {
+	box-shadow: 0.1px 0.1px 0.5px 2px lightgray;
+}
+
+
+.alert-container.active {
+	/*transform: scale(0.99);*/
+	box-shadow: 3px 0.1px 1px 0.5px grey inset;
+}
+
+.alert {
+	width: 20%;
+	overflow: hidden;
+	-webkit-transition: width 1s ease-in-out;
+	-moz-transition: width 1s ease-in-out;
+	-o-transition: width 1s ease-in-out;
+	transition: width 1s ease-in-out;
+}

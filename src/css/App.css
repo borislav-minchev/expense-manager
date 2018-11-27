@@ -1,0 +1,15 @@
+.App {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-outline-primary.selected {
+	background-color: green;
+}
+
+.disable-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

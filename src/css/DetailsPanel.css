@@ -1,0 +1,5 @@
+.details-panel {
+	transition: all 1s ease-out;
+	height: 92vh;
+	overflow-y: scroll;
+}
